@@ -18,7 +18,7 @@ app.get('/about',(req,res)=>{
 
     //שולח טקסט html
 app.get('/htmlText',(req,res)=>{
-    res.send(`<h1>hello ${name}</h1><a href='/api/games'>Go to games</a><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque in sapien magna. Donec eleifend ornare sem, ac pulvinar ipsum vehicula in. Ut eget felis elit. Etiam vehicula tellus sed vulputate suscipit. Suspendisse eget tristique urna. Sed non nibh ac est sollicitudin consectetur at egestas lacus. Sed accumsan id sapien sit amet auctor. Phasellus fermentum, ligula at finibus feugiat, velit diam dictum urna, in sollicitudin odio libero pellentesque mi. Curabitur vel facilisis sem. Donec quis tempor quam. Mauris ultricies, nibh et sodales porta, nisl neque gravida metus, quis tincidunt sem dolor ac ex</p>`)
+    res.send(`<h2>hello ${name}</h2><a href='/api/games'>Go to games</a><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque in sapien magna. Donec eleifend ornare sem, ac pulvinar ipsum vehicula in. Ut eget felis elit. Etiam vehicula tellus sed vulputate suscipit. Suspendisse eget tristique urna. Sed non nibh ac est sollicitudin consectetur at egestas lacus. Sed accumsan id sapien sit amet auctor. Phasellus fermentum, ligula at finibus feugiat, velit diam dictum urna, in sollicitudin odio libero pellentesque mi. Curabitur vel facilisis sem. Donec quis tempor quam. Mauris ultricies, nibh et sodales porta, nisl neque gravida metus, quis tincidunt sem dolor ac ex</p>`)
     })
 
     // שולח את המערך 
