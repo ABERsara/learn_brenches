@@ -26,7 +26,7 @@ app.get('/htmlText',(req,res)=>{
     app.get('/api/games',(req,res)=>{
         const newGames=games.map((game)=>{
             console.log(game)
-            return {id:game.id,name:game.name,image:game.image,price:game.price}
+            return {id:game.id,name:game.name,price:game.price}
         })
         res.json(newGames)
         })
