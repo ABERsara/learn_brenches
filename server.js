@@ -25,7 +25,8 @@ app.get('/htmlText',(req,res)=>{
     //מחזיר רק שם, מס' מזהה וכתובת תמונה
     app.get('/api/games',(req,res)=>{
         const newGames=games.map((game)=>{
-            return {id:game.id,name:game.name,image:game.image}
+            console.log(game)
+            return {id:game.id,name:game.name,image:game.image,price:game.price}
         })
         res.json(newGames)
         })
